@@ -32,7 +32,7 @@ import challenge.nextPlayer
 import challenge.reverse
 import doublestack.StackQueue
 import linkedlist.LinkedListQueue
-import list.ArrayListQueue
+import array.ArrayListQueue
 import ringbuffer.RingBufferQueue
 
 fun main() {
