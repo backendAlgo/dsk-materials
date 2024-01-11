@@ -87,7 +87,7 @@ class BinaryNode<T: Any>(var value: T) {
   fun deserialize(list: MutableList<T?>): BinaryNode<T>? {
     val rootValue = list.removeAt(list.size - 1) ?: return null
 
-    val root = BinaryNode<T>(rootValue)
+    val root = BinaryNode(rootValue)
 
     root.leftChild = deserialize(list)
     root.rightChild = deserialize(list)
